@@ -60,10 +60,14 @@ tr:{nth-child(even){
         margin: auto;
         animation: rotate 4s linear infinite alternate;
     }
-    
-    
+    @keyframes rotate{
+        from{Trensform: rotate(0deg) ;}
+        to {Transform: rotate(360deg) ;}
+    }
     @media (max-width:768px){
         .container{
             display: flex;
+            flex-Direction: column;
         }
+
     }
