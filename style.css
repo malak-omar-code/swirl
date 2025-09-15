@@ -59,7 +59,7 @@ tr:{nth-child(even){
         animation: rotate 4s linear infinite alternate;
     }
     @keyframes rotate{
-        from{Trensform: rotate(0deg) ;}
+        from{Transform: rotate(0deg) ;}
         to {Transform: rotate(360deg) ;}
     }
     @media (max-width:768px){
@@ -69,4 +69,5 @@ tr:{nth-child(even){
         }
 
     }
+
 
