@@ -1,6 +1,4 @@
 body{
-    display:flex;
-    flex-direction: column;
     text-align: center;
     background-color: rgb(200, 245, 239);
 }
@@ -71,3 +69,4 @@ tr:{nth-child(even){
         }
 
     }
+
